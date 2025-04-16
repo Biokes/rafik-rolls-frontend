@@ -36,6 +36,27 @@ body {
       font-family: 'Montserrat', sans-serif;
 
   }
+    & div{
+        background: #aaaaab;
+        display:flex;
+        height:40px;
+        border-radius: 30px;
+        justify-content:center;
+        align-items:center;
+        gap:10px;
+        color: #d7d7da;
+        width: 150px;
+        @apply hidden px-2 md:flex;
+        & input{
+            width: 80%;
+            outline:none;
+            border:none;
+        }
+    }
+    & section{
+        display:flex;
+    }
+
 }
 
 .iconsBox{
@@ -50,4 +71,8 @@ body {
 }
 .footer_bottom :not(h5){
     cursor:pointer;
+}
+.sidebar_main{
+    @apply h-[45px] w-[70%] rounded-[20px] justify-between pl-[20px] items-center gap-[10px];
+    display:flex;
 }
