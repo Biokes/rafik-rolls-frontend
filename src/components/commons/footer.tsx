@@ -6,7 +6,7 @@ import TwitterIcon from "@/components/icons/twitterIcon";
 import LocationEyed from "@/components/icons/locationEyed";
 import '@/app/globals.css'
 export default function Footer() {
-    const navlinks = ['Home', 'About us ','Contact us ', 'All podcast', 'Advertise', 'resources']
+    const navlinks = ['Home', 'About us ', 'resources']
     return (
         <main className={`bg-[#282828] gap-[15px] flex flex-col p-2 text-white font-thin px-1 sm:pl-3 w-full`}>
             <nav className={'h-[45px] w-[125px]'}>
